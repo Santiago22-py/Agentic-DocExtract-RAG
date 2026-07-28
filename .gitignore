@@ -1,0 +1,39 @@
+#Virtual Environment
+venv/
+.venv/
+env/
+
+#Python Bytecode
+__pycache__/
+*py[cod]
+
+#IDE Files
+.vscode/
+.idea/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+#Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+#Testing and Coverage
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+#Local Development Files
+logs/
+data/uploads/*
+data/downloads/*
+!data/uploads/.gitkeep
